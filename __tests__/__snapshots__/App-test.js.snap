@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders snapshot correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#F5FCFF",
+        "flex": 1,
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "backgroundColor": "red",
+          "fontSize": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+      Welcome to React Native!
+    </Text>
+    <Text
+      style={
+        Object {
+          "backgroundColor": "green",
+          "color": "#333333",
+          "textAlign": "center",
+        }
+      }
+    >
+      To get started, edit App.js
+    </Text>
+    <Text
+      style={
+        Object {
+          "backgroundColor": "yellow",
+          "color": "#333333",
+          "marginBottom": 5,
+          "textAlign": "center",
+        }
+      }
+    >
+      Press Cmd+R to reload,
+Cmd+D or shake for dev menu
+    </Text>
+  </View>
+  <Modal
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    transparent={false}
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "marginTop": 22,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "column",
+            "justifyContent": "",
+          }
+        }
+      >
+        <Text>
+          Hello World!
+        </Text>
+        <Text>
+          Hello World! how are you , how is going all.
+        </Text>
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={null}
+        >
+          <Text
+            style={null}
+          >
+            Hide Modal
+          </Text>
+        </View>
+      </View>
+    </View>
+  </Modal>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={null}
+  >
+    <Text
+      style={null}
+    >
+      Show Modal
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`renders the ActivityIndicator component 1`] = `
+<ActivityIndicator
+  animating={true}
+  color="#999999"
+  hidesWhenStopped={true}
+  size="small"
+/>
+`;
